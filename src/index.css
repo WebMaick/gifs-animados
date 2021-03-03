@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: repeating-linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.04) 0px,
+            rgba(255, 255, 255, 0.04) 2px,
+            transparent 2px,
+            transparent 4px
+        ),
+        linear-gradient(0deg, rgb(225, 42, 142), rgb(4, 2, 73));
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.gifs__container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.gifs__content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos Formulario */
+.form__gifs {
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form__gifs h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.form__gifs hr {
+    border: 1px dotted teal;
+}
+
+.form__gifs input {
+    border: none;
+    outline: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25px;
+    background-color: transparent;
+    border-bottom: 1px solid darkgray;
+    color: white;
+}
+
+.form__gifs button {
+    border: none;
+    outline: 0;
+    background-color: teal;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Estilos Listado */
+
+.listadogifs__container {
+    margin: 10px 0;
+}
+
+.listadogifs__cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.carfGif{
+    position: relative;
+    border: 1px solid yellow;
+    width: 200px;
+    height: 300px;
+}
+
+.carfGif img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carfGif h3{
+    margin: 0;
+    padding: 0;
+    border: 1px solid turquoise;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: white;
+}
+
+
+ol h2 {
+    text-align: center;
+    color: white;
+}
+
+.loading{
+    width: 100%;
+    text-align: center;
+}
+
+.loading img {
+    background-color: transparent;
+    color: transparent;
+    width: 100px;
+}
+
+h3{
+    color: white;
+    text-transform: uppercase;
+}
