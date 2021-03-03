@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gifs-animados/static/css/main.f572fbb8.chunk.css",
+    "main.js": "/gifs-animados/static/js/main.c93093ad.chunk.js",
+    "main.js.map": "/gifs-animados/static/js/main.c93093ad.chunk.js.map",
+    "runtime-main.js": "/gifs-animados/static/js/runtime-main.ed29ae7a.js",
+    "runtime-main.js.map": "/gifs-animados/static/js/runtime-main.ed29ae7a.js.map",
+    "static/js/2.47bb1bc6.chunk.js": "/gifs-animados/static/js/2.47bb1bc6.chunk.js",
+    "static/js/2.47bb1bc6.chunk.js.map": "/gifs-animados/static/js/2.47bb1bc6.chunk.js.map",
+    "static/js/3.99853b44.chunk.js": "/gifs-animados/static/js/3.99853b44.chunk.js",
+    "static/js/3.99853b44.chunk.js.map": "/gifs-animados/static/js/3.99853b44.chunk.js.map",
+    "index.html": "/gifs-animados/index.html",
+    "static/css/main.f572fbb8.chunk.css.map": "/gifs-animados/static/css/main.f572fbb8.chunk.css.map",
+    "static/js/2.47bb1bc6.chunk.js.LICENSE.txt": "/gifs-animados/static/js/2.47bb1bc6.chunk.js.LICENSE.txt",
+    "static/media/loading.a1a99674.gif": "/gifs-animados/static/media/loading.a1a99674.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed29ae7a.js",
+    "static/js/2.47bb1bc6.chunk.js",
+    "static/css/main.f572fbb8.chunk.css",
+    "static/js/main.c93093ad.chunk.js"
+  ]
+}
